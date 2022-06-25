@@ -87,6 +87,7 @@ jobs:
       id: toolchain
       run: |
         cd openwrt
+        make defconfig
         make tools/install
         make toolchain/install
 
