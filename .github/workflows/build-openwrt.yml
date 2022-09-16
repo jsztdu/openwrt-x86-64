@@ -68,7 +68,6 @@ jobs:
         [ -e $FEEDS_CONF_APPEND ] && cat $FEEDS_CONF_APPEND>>openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
-        cat feeds.conf.default
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
@@ -84,6 +83,7 @@ jobs:
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x $DIY_P2_SH
         cd openwrt
+        cat openwrt/.config
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
     - name: SSH connection to Actions
