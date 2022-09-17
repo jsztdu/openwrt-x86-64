@@ -77,7 +77,7 @@ CONFIG_VERSION_PRODUCT=""
 CONFIG_VERSION_REPO="https://downloads.openwrt.org/releases/22.03.0"
 CONFIG_VERSION_SUPPORT_URL=""
 
-kmod-ipt-offload=y
+CONFIG_PACKAGE_kmod-ipt-offload=y
 
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-ddns=y
