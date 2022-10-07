@@ -18,6 +18,7 @@ CONFIG_PACKAGE_luci-app-ipsec-vpnd=m
 CONFIG_PACKAGE_luci-app-vsftpd=m
 CONFIG_PACKAGE_luci-app-wireguard=m
 CONFIG_PACKAGE_luci-app-zerotier=m
+CONFIG_PACKAGE_luci-app-xlnetacc=m
 
 
 
