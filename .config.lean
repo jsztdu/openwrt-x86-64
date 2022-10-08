@@ -25,6 +25,10 @@ CONFIG_PACKAGE_luci-app-xlnetacc=m
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_odhcpd=y
 
+CONFIG_PACKAGE_dropbear=n
+CONFIG_PACKAGE_openssh-server=y
+CONFIG_PACKAGE_openssh-sftp-server=y
+
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
 CONFIG_PACKAGE_igmpproxy=y
