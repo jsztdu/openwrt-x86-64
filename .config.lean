@@ -28,7 +28,7 @@ CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_luci-app-pushbot=y
 
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-theme-argon-mod=n
+CONFIG_PACKAGE_luci-theme-argon=n
+CONFIG_PACKAGE_luci-theme-argon-mod=y
 CONFIG_PACKAGE_luci-theme-material=n
 CONFIG_PACKAGE_luci-theme-netgear=n
