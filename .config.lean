@@ -22,13 +22,16 @@ CONFIG_PACKAGE_luci-app-xlnetacc=m
 
 
 
+CONFIG_PACKAGE_ipv6helper=y
+CONFIG_PACKAGE_odhcpd=y
+
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
 CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_luci-app-pushbot=y
 
-CONFIG_PACKAGE_luci-theme-argon=n
 CONFIG_PACKAGE_luci-theme-argon-mod=y
+CONFIG_PACKAGE_luci-theme-infinityfreedom=n
 CONFIG_PACKAGE_luci-theme-material=n
 CONFIG_PACKAGE_luci-theme-netgear=n
