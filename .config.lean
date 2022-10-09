@@ -33,7 +33,9 @@ CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
 CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_luci-app-udpxy=y
-CONFIG_PACKAGE_luci-app-pushbot=y
+
+CONFIG_PACKAGE_luci-app-serverchan=y
+CONFIG_PACKAGE_luci-app-pushbot=n
 
 CONFIG_PACKAGE_luci-theme-argon-mod=y
 CONFIG_PACKAGE_luci-theme-infinityfreedom=n
