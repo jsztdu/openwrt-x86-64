@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: v22.03.2
+  REPO_BRANCH: v22.03.3
   FEEDS_CONF: feeds.conf.default.openwrt
   FEEDS_CONF_APPEND: feeds.conf.append.openwrt
   CONFIG_FILE: .config.openwrt
