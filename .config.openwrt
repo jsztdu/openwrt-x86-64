@@ -77,32 +77,32 @@ CONFIG_VERSION_PRODUCT=""
 CONFIG_VERSION_REPO="https://downloads.openwrt.org/releases/22.03.5"
 CONFIG_VERSION_SUPPORT_URL=""
 
-CONFIG_PACKAGE_kmod-r8101=n
+# CONFIG_PACKAGE_kmod-r8101=n
 
 CONFIG_PACKAGE_openssh-sftp-server=y
 
-CONFIG_PACKAGE_luci-app-sqm=y
+# CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-ddns=y
-CONFIG_PACKAGE_ddns-scripts-cloudflare=y
+# CONFIG_PACKAGE_ddns-scripts-cloudflare=y
 # CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_luci-app-omcproxy=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 
-CONFIG_PACKAGE_dnsmasq=n
-CONFIG_PACKAGE_luci-app-ssr-plus=y
+# CONFIG_PACKAGE_dnsmasq=n
+# CONFIG_PACKAGE_luci-app-ssr-plus=y
 
-CONFIG_PACKAGE_luci-app-pushbot=y
-CONFIG_PACKAGE_luci-app-serverchan=y
-CONFIG_PACKAGE_luci-app-autoreboot=y
+# CONFIG_PACKAGE_luci-app-pushbot=y
+# CONFIG_PACKAGE_luci-app-serverchan=y
+# CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-nlbwmon=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
-CONFIG_PACKAGE_luci-app-vlmcsd=y
+# CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-wol=y
 
-CONFIG_PACKAGE_luci-theme-argon-2102=y
-CONFIG_PACKAGE_luci-theme-infinityfreedom=n
+# CONFIG_PACKAGE_luci-theme-argon-2102=y
+# CONFIG_PACKAGE_luci-theme-infinityfreedom=n
 CONFIG_PACKAGE_luci-theme-material=n
-CONFIG_PACKAGE_luci-theme-netgear=n
+# CONFIG_PACKAGE_luci-theme-netgear=n
 
 CONFIG_LUCI_LANG_zh_Hans=y
