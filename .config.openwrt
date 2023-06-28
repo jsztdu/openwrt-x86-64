@@ -81,7 +81,7 @@ CONFIG_VERSION_SUPPORT_URL=""
 
 CONFIG_PACKAGE_openssh-sftp-server=y
 
-# CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_ddns-scripts-cloudflare=y
 # CONFIG_PACKAGE_igmpproxy=y
